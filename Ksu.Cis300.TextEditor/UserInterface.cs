@@ -1,4 +1,4 @@
-﻿/* UserInterface.cs
+/* UserInterface.cs
  * Author: Rod Howell
  * 
  * Modified by: Ian Flores
@@ -60,7 +60,7 @@ namespace Ksu.Cis300.TextEditor
             {
                 try
                 {
-                    File.WriteAllText(uxOpenDialog.FileName, uxEditBuffer.Text);
+                    File.WriteAllText(uxSaveDialog.FileName, uxEditBuffer.Text);
                 }
                 catch (Exception ex)
                 {
