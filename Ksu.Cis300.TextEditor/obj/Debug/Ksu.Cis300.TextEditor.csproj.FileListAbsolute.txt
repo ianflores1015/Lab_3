@@ -1,0 +1,10 @@
+C:\Users\ianflores1015\Source\Repos\Lab_3\Ksu.Cis300.TextEditor\bin\Debug\Ksu.Cis300.TextEditor.exe.config
+C:\Users\ianflores1015\Source\Repos\Lab_3\Ksu.Cis300.TextEditor\bin\Debug\Ksu.Cis300.TextEditor.exe
+C:\Users\ianflores1015\Source\Repos\Lab_3\Ksu.Cis300.TextEditor\bin\Debug\Ksu.Cis300.TextEditor.pdb
+C:\Users\ianflores1015\Source\Repos\Lab_3\Ksu.Cis300.TextEditor\obj\Debug\Ksu.Cis300.TextEditor.csproj.AssemblyReference.cache
+C:\Users\ianflores1015\Source\Repos\Lab_3\Ksu.Cis300.TextEditor\obj\Debug\Ksu.Cis300.TextEditor.Properties.Resources.resources
+C:\Users\ianflores1015\Source\Repos\Lab_3\Ksu.Cis300.TextEditor\obj\Debug\Ksu.Cis300.TextEditor.UserInterface.resources
+C:\Users\ianflores1015\Source\Repos\Lab_3\Ksu.Cis300.TextEditor\obj\Debug\Ksu.Cis300.TextEditor.csproj.GenerateResource.cache
+C:\Users\ianflores1015\Source\Repos\Lab_3\Ksu.Cis300.TextEditor\obj\Debug\Ksu.Cis300.TextEditor.csproj.CoreCompileInputs.cache
+C:\Users\ianflores1015\Source\Repos\Lab_3\Ksu.Cis300.TextEditor\obj\Debug\Ksu.Cis300.TextEditor.exe
+C:\Users\ianflores1015\Source\Repos\Lab_3\Ksu.Cis300.TextEditor\obj\Debug\Ksu.Cis300.TextEditor.pdb

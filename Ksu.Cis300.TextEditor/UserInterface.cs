@@ -1,11 +1,14 @@
 ﻿/* UserInterface.cs
  * Author: Rod Howell
+ * 
+ * Modified by: Ian Flores
  */
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,7 +38,14 @@ namespace Ksu.Cis300.TextEditor
         {
             if (uxOpenDialog.ShowDialog() == DialogResult.OK)
             {
-                MessageBox.Show("Can't open file " + uxOpenDialog.FileName);
+                try
+                {
+                    uxEditBuffer.Text = File.ReadAllText(uxOpenDialog.FileName);
+                }
+                catch(Exception ex)
+                {
+                    displayError(ex);
+                }
             }
         }
 
@@ -48,8 +58,24 @@ namespace Ksu.Cis300.TextEditor
         {
             if (uxSaveDialog.ShowDialog() == DialogResult.OK)
             {
-                MessageBox.Show("Can't save file " + uxSaveDialog.FileName);
+                try
+                {
+                    File.WriteAllText(uxOpenDialog.FileName, uxEditBuffer.Text);
+                }
+                catch (Exception ex)
+                {
+                    displayError(ex);
+                }
             }
+        }
+        
+        /// <summary>
+        /// Displays a message with the error when it occurs.
+        /// </summary>
+        /// <param name="ex"></param>
+        private void displayError(Exception ex)
+        {
+        MessageBox.Show("The following error occured: " + ex);
         }
     }
 }
